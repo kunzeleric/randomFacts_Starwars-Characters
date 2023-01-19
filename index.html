@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"/>
+  </head>
+  <body class="container text-center bg-black mt-5" style="--bs-bg-opacity: 0;">
+    <header>
+      <img src="assets/logo.png" alt="Logo do Star Wars" width="50%" class="mb-5"/>
+    </header>
+
+    <main>
+      <h1 class="text-decoration-underline" style="color:#ffc500; font-weight: 700;">Welcome to another Star Wars fanpage!</h1>
+
+      <div class="main">
+        <h4 class="mt-5" style="color:#ffc500;">Would you like to know random facts about your favorite (or not) Star Wars characters?</h4>
+        <h4 class="mt-5" style="color:#ffc500;">Click the button below to try!</h4>
+        <h6 class="mt-5" style="color:#ffc500; font-style: italic;">*Beware: no Disney movies here*</h6>
+        <a href="#" id="botao1" class="btn btn-warning mt-5 button1" onclick="randomGenerator()" style="background-color:#ffc500; font-weight: bold;">Click me!</a>
+      </div>
+
+      <div id="card" class="card mx-auto mt-5 mb-5 border-warning" style="width: 18rem; border: solid 2px;">
+        <div class="card-body bg-black">
+          <h5 class="card-title mb-3 p-3 rounded-1" id="nomePersonagem" style="background-color:#ffc500;"></h5>
+          <label class="card-subtitle mb-1 text-white">Gender</label>
+          <p class="card-text mb-2 p-1 rounded-1" id="fato1" style="background-color:#ffc500;"></p>
+          <label class="card-subtitle mb-1 text-white">Height</label>
+          <p class="card-text mb-2 p-1 rounded-1" id="fato2" style="background-color:#ffc500;"></p>
+          <label class="card-subtitle mb-1 text-white">Starships Piloted</label>
+          <p class="card-text mb-2 p-1 rounded-1" id="fato3" style="background-color:#ffc500;"></p>
+          <label class="card-subtitle mb-1 text-white"># Movies Participations</label>
+          <p class="card-text mb-5 p-1 rounded-1" id="fato4" style="background-color:#ffc500;"></p>
+          <a href="#" id="botao2" class="btn button2" onclick="randomGenerator()" style="background-color:#ffc500; font-weight: bold;">Another character!</a>
+        </div>
+
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

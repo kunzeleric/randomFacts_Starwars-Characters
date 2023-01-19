@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --black-color: #000000;
+    --yellow-color: #ffe81f;
+}
+
+html{
+    background-image: url(assets/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
