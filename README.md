@@ -1,5 +1,3 @@
-Fanpage created for random knowledge about the characters in the first two trilogies of Star Wars movies. Tecnologies used: Bootstrap, API Swapi, HTML & JS.
-
 ## Star Wars Random Character Generator :robot:
 
 <p> I decided to practice how to access and retrieve data from an API in order to show some facts about any characters from the classic two trilogies from the Star Wars universe!</p>
