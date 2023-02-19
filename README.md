@@ -4,7 +4,7 @@
 
   ## <strong>Goals</strong>:
 <ul>
-  <li>Design a cool and simple page with a Star Wars theme.</li>
+  <li>Design a cool and simple page with a Star Wars theme, using Bootstrap.</li>
   <li>Create a button that has a built in function to generate a card with fact about a random character.</li>
 </ul>
 
